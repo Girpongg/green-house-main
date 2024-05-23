@@ -120,7 +120,6 @@ function NavListMenu() {
                         <MagnifyingGlassIcon className="h-[18px] w-[18px]" /> Cari {" "}
                     </MenuItem>
                 </MenuHandler>
-
                 <MenuList>
                     <Input
                         label="Search"
@@ -144,7 +143,7 @@ function NavListMenu() {
                                                     {name}    
                                                 </span>
                                             </Typography>
-                    
+
                                             <Typography
                                                 variant="small"
                                                 className="flex items-center gap-1 text-sm text-gray-600"
@@ -233,11 +232,10 @@ export default function NavbarLayout() {
   }, []);
  
   return (
-    <Navbar className="mx-auto max-w-screen-xl p-2 lg:rounded-full lg:pl-6 bg-gradient-to-br from-[#1aaf91] to-[#25c986]">
+    <Navbar className="w-[100%] max-w-screen-xl p-2 lg:pl-6">
 
-        <div className="relative mx-auto flex items-center text-blue-gray-900">
+        <div className="relative mx-auto flex items-center text-green-900">
             <Link to="/" className="flex">
-            
                 <Avatar
                     variant="circular"
                     size="sm"
@@ -249,8 +247,7 @@ export default function NavbarLayout() {
                     variant="h6"
                     className="mr-4 ml-2 cursor-pointer py-1.5"
                 >
-
-                    Tanaman Obat Keluarga Siwalankerto
+                    Tanaman Obat Keluarga Wedoro
                 </Typography>
             </Link>
 
@@ -260,7 +257,7 @@ export default function NavbarLayout() {
 
             {/* Icon toogle for mobile */}
             <IconButton
-                size="sm"
+                size="xl"
                 color="blue-gray"
                 variant="text"
                 onClick={toggleIsNavOpen}

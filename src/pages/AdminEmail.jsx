@@ -61,7 +61,7 @@ export default function AdminEmail() {
             setError("Email tidak boleh kosong");
         }
     }
-
+    
     const setTableData = async () => {
         getAllowedEmail().then((allowedEmail) => {
             if(allowedEmail){

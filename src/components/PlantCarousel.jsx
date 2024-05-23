@@ -4,7 +4,7 @@ export default function PlantCarousel(){
     return (
         <>
             <Carousel
-                className="rounded-xl max-w-screen-xl mx-auto h-96"
+                className="rounded-l max-w-screen-xl mx-auto h-96"
                 data-aos="fade-left"
                 navigation={({ setActiveIndex, activeIndex, length }) => (
                     <div className="absolute bottom-4 left-2/4 z-50 flex -translate-x-2/4 gap-2">

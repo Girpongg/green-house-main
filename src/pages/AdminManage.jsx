@@ -225,6 +225,7 @@ export default function AdminManage(){
                     </Typography>
 
                     <Editor
+                            apiKey='45orbiigou6w80pk59amniy8qjldxaq7y3u5rhi9714up0nl'
                             onInit={(evt, editor) => editorRef.current = editor}
                             initialValue={description}
                             init={{
@@ -248,7 +249,6 @@ export default function AdminManage(){
                     <Typography variant="h6" color="blue-gray" className="my-5 text-left">
                         Gambar
                     </Typography>
-       
                     <div className="flex flex-wrap space-x-4 gap-4 mb-5">
                         {images.map((img, i) => (
                             <figure className="relative h-40 w-40" key={i}>
