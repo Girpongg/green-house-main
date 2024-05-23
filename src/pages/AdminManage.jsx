@@ -153,11 +153,11 @@ export default function AdminManage(){
 
         console.log(newPlant);
 
-        if(!plantTag){
+        if(!plantTag){ //misal di url nama plant tag tidak ada maka akan create plant baru
             //create new plant
             await createPlant(newPlant)
 
-        }else if(plantTag != newPlant.tag){
+        }else if(plantTag != newPlant.tag){ //jika kita ganti plant tag di manage maka di url plant tag akan berubah
             //in case change plant tag
             //delete the old one
             await deletePlant(plantTag);

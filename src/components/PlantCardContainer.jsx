@@ -38,7 +38,7 @@ export default function PlantCardContainter(){
             :
             // tanaman tidak ditemukan
             <div className="mt-5 mx-auto">
-                <Typography variant="h3" className="text-center">Masih Belum Ada Tanaman</Typography>
+                <Typography variant="h3" className="text-center mt-3">Belum Ada Tanaman Yang Terdaftar</Typography>
             </div>
         }
 

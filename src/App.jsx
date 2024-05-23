@@ -14,8 +14,8 @@ import AdminEmail from './pages/AdminEmail'
 
 function App() {
   return (
-    <div className='bg-repeat bg-[length:500px]' style={{backgroundImage: "url('/images/backgroun.jpg')"}}>
-      <div className='bg-[#ffffff] bg-opacity-95'>
+    <div className='bg-repeat bg-[length:500px]' style={{backgroundImage: "url('/images/Leaves.png')"}}>
+      <div className='bg-[#e2e2e2] bg-opacity-90'>
         {/* <img className="h-full w-full object-cover" src=/> */}
         <BrowserRouter>
           <Routes>

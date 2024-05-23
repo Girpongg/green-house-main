@@ -232,7 +232,7 @@ export default function NavbarLayout() {
   }, []);
  
   return (
-    <Navbar className="w-[100%] max-w-screen-xl p-2 lg:pl-6">
+    <Navbar className="w-full p-2 lg:pl-6 bg-gradient-to-br from-[#ffffff] to-[#ffffff]">
 
         <div className="relative mx-auto flex items-center text-green-900">
             <Link to="/" className="flex">
