@@ -124,10 +124,10 @@ export function PlantTable() {
                 <div className="mb-4 flex flex-col justify-between gap-8 md:flex-row md:items-center">
                     <div>
                         <Typography variant="h5" color="blue-gray">
-                            Manage Data Tanaman
+                            Manage Data Tanaman Obat
                         </Typography>
                         <Typography color="gray" className="mt-1 font-normal">
-                            CRUD
+                           Desa Wedoro
                         </Typography>
                     </div>
                     <div className="flex flex-col w-full shrink-0 gap-2 md:w-max md:flex-row">
@@ -154,7 +154,7 @@ export function PlantTable() {
                     </div>
                 </div>
             </CardHeader>
-            <CardBody className="h-96 overflow-scroll px-0">
+            <CardBody className=" h-[500px] overflow-scroll px-0">
                 <table className="w-full min-w-max table-auto text-left">
                     <thead>
                         <tr>
